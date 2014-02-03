@@ -1,0 +1,22 @@
+
+/**
+ * MouseStats
+ */
+
+.logo[data-logo="MouseStats"] {
+  width: 4.493679172em;
+  /* (98.218/14.207) * (1-.175-.175) - 0 */
+}
+
+.logo[data-logo="MouseStats"] > * {
+  background-image: url(images/logo.svg);
+  margin: .175em 0;
+}
+
+.logo[data-logo="MouseStats"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="MouseStats"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
